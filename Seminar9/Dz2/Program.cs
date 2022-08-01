@@ -33,8 +33,6 @@ namespace Task66
                 
             }
         }
-
-
         public static int SumNumber(int m, int n, int sum)
         {
             if (m > 0)
@@ -59,7 +57,6 @@ namespace Task66
                 Console.WriteLine("Натуральные числа это целые больше 0");
                 return SumNumber(1, n, sum);
             }
-
         }
     }
 }

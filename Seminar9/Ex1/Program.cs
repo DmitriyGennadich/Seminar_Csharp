@@ -27,12 +27,10 @@ namespace Task1
             FillArray(array);
             PrintArray(array);
             Console.WriteLine();
-            // ChangeSquare(array);
-            // PrintArray(array);
-            // Console.WriteLine();
-            // Console.WriteLine();
-            array = Delete(array);
+            ChangeSquare(array);
             PrintArray(array);
+            // array = Delete(array);
+            // PrintArray(array);
 
         }
         public static void FillArray(int[,] array)
@@ -97,7 +95,6 @@ namespace Task1
                     if (j != jMin) { l++; }
                     else { continue; }
                     arr[k, l] = array[i, j];
-
                 }
             }
             return arr;
