@@ -30,7 +30,7 @@ namespace Task52
         public static void FillArray(int[,] array, int a, int b)
         {
             Random arr = new Random();
-            int[,] arr1 = new int[a, b];
+
             for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
@@ -60,12 +60,12 @@ namespace Task52
             for (int i = 0; i < array.GetLength(1); i++)
             {
                 for (int j = 0; j < array.GetLength(0); j++)
-                {  
-                    sum = sum +array[j,i];                    
+                {
+                    sum = sum + array[j, i];
                 }
-                Console.WriteLine($"Сумма элементов столбца {i+1}: {sum}");
+                Console.WriteLine($"Сумма элементов столбца {i + 1}: {sum}");
                 average = sum / count;
-                Console.WriteLine($"Среднее арифметическое столбца {i+1}: {Math.Round(average,2)}");
+                Console.WriteLine($"Среднее арифметическое столбца {i + 1}: {Math.Round(average, 2)}");
 
             }
 

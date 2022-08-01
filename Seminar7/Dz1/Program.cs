@@ -22,8 +22,7 @@ namespace Task47
         public static void FillArray(double[,] arr, int m, int n)
         {
             Random array1 = new Random();
-            double[,] array2 = new double[m, n];
-
+            
             for (int i = 0; i < arr.GetLength(0); i++)
             {
                 for (int j = 0; j < arr.GetLength(1); j++)

@@ -20,8 +20,8 @@ namespace Seminar8
     {
         static void Main(string[] args)
         {
-            int n = new Random().Next(3, 7);
-            int m = new Random().Next(3, 7);
+            int n = new Random().Next(3, 3);
+            int m = new Random().Next(3, 3);
             int[,] array = new int[n, m];
             int[,] array2 = new int[n, m];
             FillArray(array);

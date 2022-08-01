@@ -38,8 +38,7 @@ namespace Task50
         public static void FillArray(int[,] arr, int m, int n)
         {
             Random arr1 = new Random();
-            int[,] arr2 = new int[m, n];
-
+            
             for (int i = 0; i < arr.GetLength(0); i++)
             {
                 for (int j = 0; j < arr.GetLength(1); j++)
